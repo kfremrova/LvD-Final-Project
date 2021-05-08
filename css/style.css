@@ -1,2 +1,84 @@
+@charset "UTF-8";
+/* nejsme vcerejsi, pouzivame moderni box model */
+html {
+  box-sizing: border-box;
+}
 
-/*# sourceMappingURL=style.css.map *//*# sourceMappingURL=style.css.map */
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.wrapper {
+  color: #261E1B;
+  background-color: #FFF9EB;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.breadcrumbs {
+  background-color: #261E1B;
+  color: #FFF9EB;
+  font-family: "Great Vibes", cursive;
+  text-align: left;
+}
+
+.breadcrumbs__link {
+  color: #FFF9EB;
+}
+
+.footer {
+  background-color: #261E1B;
+  color: #FFF9EB;
+  font-family: "Great Vibes", cursive;
+}
+
+.header {
+  padding: 30px;
+}
+
+.header__title {
+  font-family: "Great Vibes", cursive;
+  margin: 0;
+  font-size: 3em;
+}
+
+/*ještě si musím rozmyslet, jestli se mi to větší první písmeno líbí*/
+.header__title::first-letter {
+  font-size: 1.5em;
+}
+
+.header__subheading {
+  margin: 0;
+  font-size: 1.25em;
+  font-weight: lighter;
+}
+
+.navigation {
+  background-color: #261E1B;
+  color: #FFF9EB;
+  font-family: "Great Vibes", cursive;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  margin: 0;
+}
+
+.menu__list {
+  list-style: none;
+  display: inline;
+}
+
+.menu__item {
+  display: inline;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,8 @@
+@use 'fonts';
+@use 'colours';
+
+.footer {
+    background-color: colours.$c-primary;
+    color: colours.$c-secondary;
+    font-family: fonts.$f-fancy;
+}

@@ -1,3 +1,6 @@
+@use 'fonts';
+@use 'colours';
+
 /* nejsme vcerejsi, pouzivame moderni box model */
 html {
     box-sizing: border-box;
@@ -11,11 +14,13 @@ html {
   body {
     margin: 0;
     padding: 0;
+    font-size: fonts.$fs-basic;
+    line-height: 1.5;
   }
 
   .wrapper {
-    color: #261E1B;
-    background-color: #FFF9EB;
+    color: colours.$c-primary;
+    background-color: colours.$c-secondary;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
   }

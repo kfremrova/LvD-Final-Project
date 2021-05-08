@@ -1,0 +1,24 @@
+@use 'fonts';
+@use 'colours';
+
+.navigation {
+    background-color: colours.$c-primary;
+    color: colours.$c-secondary;
+    font-family: fonts.$f-fancy;
+    display: flex;
+    justify-content: space-between; //aby byly logo a menu na opačných stranách
+}
+
+.menu {
+    margin: 0; //aby se mi netřískal s mým rozvržením
+}
+
+//srovnání položek menu do řádku, bez vodicího znaku
+.menu__list {
+    list-style: none;
+    display: inline;
+}
+
+.menu__item {
+    display: inline;
+}
