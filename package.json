@@ -1,0 +1,24 @@
+{
+  "name": "lvd-final-project",
+  "version": "1.0.0",
+  "description": "my final project on bookbinding",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kfremrova/LvD-Final-Project.git"
+  },
+  "author": "Kveta Fremrova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kfremrova/LvD-Final-Project/issues"
+  },
+  "homepage": "https://github.com/kfremrova/LvD-Final-Project#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
