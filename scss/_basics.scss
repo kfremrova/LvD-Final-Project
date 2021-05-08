@@ -1,0 +1,21 @@
+/* nejsme vcerejsi, pouzivame moderni box model */
+html {
+    box-sizing: border-box;
+  }
+  *,
+  :after,
+  :before {
+    box-sizing: inherit;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .wrapper {
+    color: #261E1B;
+    background-color: #FFF9EB;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
