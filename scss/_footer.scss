@@ -1,8 +1,10 @@
 @use 'fonts';
 @use 'colours';
+@use 'spacers';
 
 .footer {
     background-color: colours.$c-primary;
     color: colours.$c-secondary;
     font-family: fonts.$f-fancy;
+    padding: spacers.$padding-small;
 }

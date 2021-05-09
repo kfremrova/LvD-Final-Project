@@ -29,6 +29,7 @@ body {
   color: #FFF9EB;
   font-family: "Great Vibes", cursive;
   text-align: left;
+  padding: 5px 15px;
 }
 
 .breadcrumbs__link {
@@ -39,6 +40,7 @@ body {
   background-color: #261E1B;
   color: #FFF9EB;
   font-family: "Great Vibes", cursive;
+  padding: 5px 15px;
 }
 
 .header {
@@ -65,10 +67,15 @@ body {
   font-weight: lighter;
 }
 
+.main {
+  padding: 5px 15px;
+}
+
 .navigation {
   background-color: #261E1B;
   color: #FFF9EB;
   font-family: "Great Vibes", cursive;
+  padding: 5px 15px;
   display: flex;
   justify-content: space-between;
 }
@@ -84,4 +91,10 @@ body {
 
 .menu__item {
   display: inline;
+  padding: 5px;
+}
+
+.menu__link {
+  color: #FFF9EB;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */

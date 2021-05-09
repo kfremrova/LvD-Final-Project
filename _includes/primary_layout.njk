@@ -15,15 +15,15 @@
   <body>
     <div class="wrapper">
       <nav class="navigation">
-          <div>
-              <!--tady bude logo-->
-          </div>
+        <div>
+          <!--tady bude logo-->
+        </div>
         <menu class="menu">
           <ul class="menu__list">
-            <li class="menu__item">Jak začít</li>
-            <li class="menu__item">Dílnička</li>
-            <li class="menu__item">Čtenářský koutek</li>
-            <li class="menu__item">O mně</li>
+            <li class="menu__item"><a class="menu__link" href="#">Jak začít</a></li>
+            <li class="menu__item"><a class="menu__link" href="#"> Dílnička</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Čtenářský koutek</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">O mně</a></li>
           </ul>
         </menu>
       </nav>
@@ -33,12 +33,13 @@
         <h2 class="header__subheading">O kráse knižní vazby</h2>
       </header>
 
-      <nav class="breadcrumbs"><a class="breadcrumbs__link" href="#">Domů</a></nav>
+      <nav class="breadcrumbs">
+        <a class="breadcrumbs__link" href="#">Domů</a>
+      </nav>
 
       <main class="main">
-
-{{ content | safe }}
-       </main>
+        {{ content | safe }}
+      </main>
 
       <footer class="footer">© Listy v dlani</footer>
     </div>
