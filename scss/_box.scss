@@ -5,7 +5,10 @@
 .box {
     background-color: white;
     box-shadow: 0px 4px 6px colours.$c-dark-shadow;
-    padding: spacers.$padding-small;
+    padding: spacers.$spacer-small;
+    @media screen and (min-width: 500px) {
+        display: flex;        
+    }
 }
 
 .box__go-to {
