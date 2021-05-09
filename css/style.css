@@ -43,6 +43,9 @@ body {
 
 .header {
   padding: 30px;
+  background-image: url(/images/docasny.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .header__title {
