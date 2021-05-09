@@ -1,0 +1,37 @@
+@use 'fonts';
+@use 'colours';
+@use 'spacers';
+
+.box {
+    background-color: white;
+    box-shadow: 0px 4px 6px colours.$c-dark-shadow;
+    padding: spacers.$padding-small;
+}
+
+.box__go-to {
+    text-decoration: none;
+    color: colours.$c-primary;
+}
+
+.box__img {
+    background-color: colours.$c-img-substitute;
+    width: 100%;    
+}
+
+.button {
+    color: colours.$c-secondary;
+    background-color: colours.$c-primary;
+    box-shadow: 0px 4px 6px colours.$c-dark-shadow;
+}
+
+.box__button {
+    text-decoration: none;
+    display: none;
+}
+
+/* vyřešit, aby se tlačítko objevovalo až při širší obrazovce
+.button__box {
+    display: none;
+}
+*/
+

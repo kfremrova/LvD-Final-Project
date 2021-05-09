@@ -24,6 +24,38 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.box {
+  background-color: white;
+  box-shadow: 0px 4px 6px #FFE7AD;
+  padding: 5px 15px;
+}
+
+.box__go-to {
+  text-decoration: none;
+  color: #261E1B;
+}
+
+.box__img {
+  background-color: #FFE099;
+  width: 100%;
+}
+
+.button {
+  color: #FFF9EB;
+  background-color: #261E1B;
+  box-shadow: 0px 4px 6px #FFE7AD;
+}
+
+.box__button {
+  text-decoration: none;
+  display: none;
+}
+
+/* vyřešit, aby se tlačítko objevovalo až při širší obrazovce
+.button__box {
+    display: none;
+}
+*/
 .breadcrumbs {
   background-color: #261E1B;
   color: #FFF9EB;
