@@ -15,7 +15,7 @@
 
 .box__img {
     background-color: colours.$c-img-substitute;
-    width: 100%;    
+    width: 75%;    
 }
 
 .button {
@@ -27,11 +27,11 @@
 .box__button {
     text-decoration: none;
     display: none;
-}
 
-/* vyřešit, aby se tlačítko objevovalo až při širší obrazovce
-.button__box {
-    display: none;
-}
-*/
+    @media screen and (min-width: 500px) {
+        display: block;        
+    }
+
+    
+} //nezapomenout vrátit na širší obrazovky
 

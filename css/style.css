@@ -37,7 +37,7 @@ body {
 
 .box__img {
   background-color: #FFE099;
-  width: 100%;
+  width: 75%;
 }
 
 .button {
@@ -50,12 +50,12 @@ body {
   text-decoration: none;
   display: none;
 }
-
-/* vyřešit, aby se tlačítko objevovalo až při širší obrazovce
-.button__box {
-    display: none;
+@media screen and (min-width: 500px) {
+  .box__button {
+    display: block;
+  }
 }
-*/
+
 .breadcrumbs {
   background-color: #261E1B;
   color: #FFF9EB;
