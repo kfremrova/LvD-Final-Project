@@ -5,13 +5,14 @@
 .main {
     padding: spacers.$spacer-small;
   }
-  /* už toho dnes bylo dost
+// už toho dnes bylo dost
 .grid-for-boxes {
+  display: grid;
   grid-template-columns: 100%;
   grid-template-rows: auto;
   gap: 30px;
 }
-*/
+
 
 
 

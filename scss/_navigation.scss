@@ -17,6 +17,7 @@
     left: -9999px;
 }
 
+//"ručička" pro ukázání na menu
 .menu__toggler {
     text-align: right;
     cursor: pointer;
@@ -43,10 +44,17 @@
     display: block;    
 }
 
+.menu__item {
+    display: block;
+}
+
 .menu__link {
     color: colours.$c-secondary;
+    display: block;
     text-decoration: none;
 }
+
+
 /*
 .menu__item {
     display: inline;
