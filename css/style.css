@@ -48,7 +48,7 @@ body {
 .button {
   color: #FFF9EB;
   background-color: #261E1B;
-  box-shadow: 0px 4px 6px #FFE7AD;
+  box-shadow: 0px 4px 6px #5D544F;
 }
 
 .box__button {
@@ -137,6 +137,11 @@ body {
   height: 20px;
   width: auto;
   padding-right: 5px;
+}
+
+.logo__link {
+  color: #FFF9EB;
+  text-decoration: none;
 }
 
 .menu__checkbox {

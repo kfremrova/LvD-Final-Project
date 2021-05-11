@@ -21,6 +21,11 @@
     padding-right: 5px;
 }
 
+.logo__link {
+    color: colours.$c-secondary;
+    text-decoration: none;
+}
+
 //skrýt checkbox
 .menu__checkbox {
     position: absolute;
