@@ -40,19 +40,19 @@
 }
 
 .menu__checkbox:checked ~ .menu__list {
-    display: block;
+    display: block;    
 }
 
 .menu__link {
     color: colours.$c-secondary;
     text-decoration: none;
 }
-
+/*
 .menu__item {
     display: inline;
     padding: 5px;
 }
 
-
+*/
 
 
