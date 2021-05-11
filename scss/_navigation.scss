@@ -26,6 +26,15 @@
     text-decoration: none;
 }
 
+.logo:hover {
+    color: colours.$c-primary;
+    background-color: colours.$c-secondary;
+}
+
+.logo:hover ~ .logo__icon {
+    fill: colours.$c-primary;
+}
+
 //skrýt checkbox
 .menu__checkbox {
     position: absolute;
@@ -63,10 +72,19 @@
     display: block;
 }
 
+.menu__item:hover {
+    color: colours.$c-primary;
+    background-color: colours.$c-secondary;
+}
+
 .menu__link {
     color: colours.$c-secondary;
     display: block;
     text-decoration: none;
+}
+
+.menu__link:hover {
+    color: colours.$c-primary;
 }
 
 

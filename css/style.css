@@ -51,6 +51,11 @@ body {
   box-shadow: 0px 4px 6px #5D544F;
 }
 
+.button:hover {
+  color: #261E1B;
+  background-color: #FFF9EB;
+}
+
 .box__button {
   text-decoration: none;
   display: none;
@@ -144,6 +149,15 @@ body {
   text-decoration: none;
 }
 
+.logo:hover {
+  color: #261E1B;
+  background-color: #FFF9EB;
+}
+
+.logo:hover ~ .logo__icon {
+  fill: #261E1B;
+}
+
 .menu__checkbox {
   position: absolute;
   left: -9999px;
@@ -182,10 +196,19 @@ body {
   display: block;
 }
 
+.menu__item:hover {
+  color: #261E1B;
+  background-color: #FFF9EB;
+}
+
 .menu__link {
   color: #FFF9EB;
   display: block;
   text-decoration: none;
+}
+
+.menu__link:hover {
+  color: #261E1B;
 }
 
 /*

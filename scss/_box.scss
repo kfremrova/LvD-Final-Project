@@ -27,6 +27,11 @@
     box-shadow: 0px 4px 6px #5D544F;
 }
 
+.button:hover {
+    color: colours.$c-primary;
+    background-color: colours.$c-secondary;
+}
+
 .box__button {
     text-decoration: none;
     display: none;
