@@ -1,4 +1,4 @@
 Na co nesmím zapomenout:
+    list v logu je provizorní, pokud budu mít čas, pohrát si s svg a udělat lepší ;-)
     hlídat, aby byly cca stejné rozestupy prvků, možná pro to nastavit pacer?
-    rozmyslet, jestli se mi líbí větší první písmeno u hlavního nadpisu
     nezapomenout na stavy :hover :active, podbarvení aktuální položky menu.. /active - barvy reverzně, hover - rámeček/

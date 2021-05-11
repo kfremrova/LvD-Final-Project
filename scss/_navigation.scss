@@ -11,6 +11,16 @@
     justify-content: space-between; //aby byly logo a menu na opačných stranách
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo__icon {
+    height: 20px;
+    width: auto;
+    padding-right: 5px;
+}
+
 //skrýt checkbox
 .menu__checkbox {
     position: absolute;

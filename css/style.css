@@ -115,6 +115,10 @@ body {
   gap: 30px;
 }
 
+.button {
+  font-family: "Great Vibes", cursive;
+}
+
 .navigation {
   background-color: #261E1B;
   color: #FFF9EB;
@@ -122,6 +126,17 @@ body {
   padding: 5px 15px;
   display: flex;
   justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo__icon {
+  height: 20px;
+  width: auto;
+  padding-right: 5px;
 }
 
 .menu__checkbox {
