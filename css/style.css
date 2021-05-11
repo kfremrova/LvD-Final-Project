@@ -124,21 +124,46 @@ body {
   justify-content: space-between;
 }
 
+.menu__checkbox {
+  position: absolute;
+  left: -9999px;
+}
+
+.menu__toggler {
+  text-align: right;
+  cursor: pointer;
+}
+@media screen and (min-width: 500px) {
+  .menu__toggler {
+    display: none;
+  }
+}
+
 .menu {
   margin: 0;
 }
 
 .menu__list {
   list-style: none;
-  display: inline;
+  display: none;
+  margin: 0;
+}
+@media screen and (min-width: 500px) {
+  .menu__list {
+    display: flex;
+  }
 }
 
-.menu__item {
-  display: inline;
-  padding: 5px;
+.menu__checkbox:checked ~ .menu__list {
+  display: block;
 }
 
 .menu__link {
   color: #FFF9EB;
   text-decoration: none;
+}
+
+.menu__item {
+  display: inline;
+  padding: 5px;
 }/*# sourceMappingURL=style.css.map */
