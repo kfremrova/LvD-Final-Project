@@ -42,7 +42,7 @@
     text-align: right;
     cursor: pointer;
 
-    @media screen and (min-width: 500px) {
+    @media screen and (min-width: 600px) {
         display: none;
     }
 }
@@ -55,7 +55,7 @@
     list-style: none;
     display: none;
     margin: 0;
-    @media screen and (min-width: 500px) {
+    @media screen and (min-width: 600px) {
         display: flex;
     }    
 }
