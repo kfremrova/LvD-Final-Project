@@ -3,14 +3,14 @@
 @use 'spacers';
 
 .breadcrumbs {
-    background-color: colours.$c-primary;
-    color: colours.$c-secondary;
-    font-family: fonts.$f-fancy;
     text-align: left;
-    padding: spacers.$padding-small;
 }
 
 .breadcrumbs__link {
     color: colours.$c-secondary;
 }
-//musím ještě vyřešit :hover
+
+.breadcrumbs__link:hover {
+    color: colours.$c-primary;
+    background-color: colours.$c-secondary;
+}

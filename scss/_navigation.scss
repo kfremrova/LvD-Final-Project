@@ -3,10 +3,6 @@
 @use 'spacers';
 
 .navigation {
-    background-color: colours.$c-primary;
-    color: colours.$c-secondary;
-    font-family: fonts.$f-fancy;
-    padding: spacers.$padding-small;
     display: flex;
     justify-content: space-between; //aby byly logo a menu na opačných stranách
 }
@@ -81,19 +77,11 @@
     color: colours.$c-secondary;
     display: block;
     text-decoration: none;
+    padding: 10px; //aby se dobře trefovalo na mobilu
 }
 
 .menu__link:hover {
     color: colours.$c-primary;
 }
-
-
-/*
-.menu__item {
-    display: inline;
-    padding: 5px;
-}
-
-*/
 
 
