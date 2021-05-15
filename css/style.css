@@ -37,12 +37,7 @@ body {
 .box {
   background-color: white;
   box-shadow: 0px 4px 6px #FFE7AD;
-  padding: 30px;
-}
-@media screen and (min-width: 600px) {
-  .box {
-    display: flex;
-  }
+  padding: 15px;
 }
 
 .box__go-to {
@@ -52,7 +47,7 @@ body {
 
 .box__img {
   background-color: #FFE099;
-  width: 75%;
+  width: 100%;
 }
 
 .button {
@@ -121,8 +116,7 @@ body {
 
 .grid-for-boxes {
   display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: auto;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
   gap: 30px;
 }
 
