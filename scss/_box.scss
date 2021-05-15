@@ -20,6 +20,12 @@
     width: 100%;   
 }
 
+//tohle zjevně nefunguje, proč? Mělo to pomoct zarovnat tlačítka ke spodnímu okraji
+.box__content {
+    display: flex;
+    flex-direction: column;
+}
+
 //stylování tlačítek
 .button {
     color: colours.$c-secondary;

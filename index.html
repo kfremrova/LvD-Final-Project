@@ -9,21 +9,23 @@ subheading: O kráse knižní vazby
   </h3>
   <p class="page-intro__text">
     Dočtete se tu, jak s vázáním knížek začít, jak opravit rozpadající se knížky
-    z dětství, kam vyrazit na knižní výstavu nebo na kurz, i co si přečíst na odlehčení, když už vám jde ze všech
-    knihařských termínů hlava kolem.
+    z dětství, kam vyrazit na knižní výstavu nebo na kurz, i co si přečíst na
+    odlehčení, když už vám jde ze všech knihařských termínů hlava kolem.
   </p>
 </div>
 
 <div class="grid-for-boxes">
-  <section class="box">
-    <a class="box__go-to" href="/jak-zacit/">
-        <img class="box__img" src="/images/docasny.JPG" alt="Jak začít" />
-      <div class="box__text">
-        <h4 class="box__title">Jak začít</h4>
-        <p class="box__intro">
-          Přemýšlíte, jestli se do vázání knížek vůbec pustit? Nevíte jaké si
-          pořídit nástroje a materiál? Přečtěte si jak začít.
-        </p>
+  <section class="box"> <!--celá tahle struktura je pro jeden boxík, tj. zatím se bude opakovat 4x-->
+    <a class="box__go-to" href="/jak-zacit/"> <!--protože na nejmenších obrazovkách chci, aby celý rámeček fungoval jako odkaz-->
+      <img class="box__img" src="/images/docasny.JPG" alt="Jak začít" />
+      <div class="box__content"> <!--divy jsou kvůli zarovnání tlačítka na konec flexboxu-->
+        <div class="box__text">
+          <h4 class="box__title">Jak začít</h4>
+          <p class="box__intro">
+            Přemýšlíte, jestli se do vázání knížek vůbec pustit? Nevíte jaké si
+            pořídit nástroje a materiál? Přečtěte si jak začít.
+          </p>
+        </div>
         <a class="button box__button" href="/jak-zacit/">Navštívit sekci</a>
       </div>
     </a>
@@ -31,12 +33,15 @@ subheading: O kráse knižní vazby
 
   <section class="box">
     <a class="box__go-to" href="/dilnicka/">
-        <img class="box__img" src="/images/docasny.JPG" alt="Dílnička" />
-      <div class="box__text">
-        <h4 class="box__title">Dílnička</h4>
-        <p class="box__intro">
-          V základech už máte jasno a chcete do vázání knížek skočit po hlavě. Zkuste se podívat na nápady a návody v Dílničce.
-        </p>
+      <img class="box__img" src="/images/docasny.JPG" alt="Dílnička" />
+      <div class="box__content">
+        <div class="box__text">
+          <h4 class="box__title">Dílnička</h4>
+          <p class="box__intro">
+            V základech už máte jasno a chcete do vázání knížek skočit po hlavě.
+            Zkuste se podívat na nápady a návody v Dílničce.
+          </p>
+        </div>
         <a class="button box__button" href="/dilnicka/">Navštívit sekci</a>
       </div>
     </a>
@@ -44,29 +49,37 @@ subheading: O kráse knižní vazby
 
   <section class="box">
     <a class="box__go-to" href="/ctenarsky-koutek/">
-      <img class="box__img" src="/images/docasny.JPG" alt="Čtenářký koutek" />    
-      <div class="box__text">
-        <h4 class="box__title">Čtenářský koutek</h4>
-        <p class="box__intro">
-          Vlastních vazačských pokusů máte pro chvíli dost. Chcete se zachumlat do deky, uvařit si horkou čokoládu a něco hezkého si přečíst. Tipy na beletrii o knihách a knihařích hledejte ve Čtenářském koutku.
-        </p>
-        <a class="button box__button" href="/ctenarsky-koutek/">Navštívit sekci</a>
+      <img class="box__img" src="/images/docasny.JPG" alt="Čtenářký koutek" />
+      <div class="box__content">
+        <div class="box__text">
+          <h4 class="box__title">Čtenářský koutek</h4>
+          <p class="box__intro">
+            Vlastních vazačských pokusů máte pro chvíli dost. Chcete se
+            zachumlat do deky, uvařit si horkou čokoládu a něco hezkého si
+            přečíst. Tipy na beletrii o knihách a knihařích hledejte ve
+            Čtenářském koutku.
+          </p>
+        </div>
+        <a class="button box__button" href="/ctenarsky-koutek/"
+          >Navštívit sekci</a
+        >
       </div>
     </a>
   </section>
 
   <section class="box">
     <a class="box__go-to" href="/o-mne/">
-        <img class="box__img" src="/images/docasny.JPG" alt="O mně" />
-      <div class="box__text">
-        <h4 class="box__title">O mně</h4>
-        <p class="box__intro">
-          Zajímá vás, kdo stojí za těmito stránkami? Chcete mi nechat zpětnou vazbu? To vše můžete v sekci o mé osobě.
-        </p>
+      <img class="box__img" src="/images/docasny.JPG" alt="O mně" />
+      <div class="box__content">
+        <div class="box__text">
+          <h4 class="box__title">O mně</h4>
+          <p class="box__intro">
+            Zajímá vás, kdo stojí za těmito stránkami? Chcete mi nechat zpětnou
+            vazbu? To vše můžete v sekci o mé osobě.
+          </p>
+        </div>
         <a class="button box__button" href="/o-mne/">Navštívit sekci</a>
       </div>
     </a>
   </section>
 </div>
-
-
