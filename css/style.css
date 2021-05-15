@@ -138,6 +138,12 @@ body {
 .main {
   padding: 30px;
 }
+@media screen and (min-width: 600px) {
+  .main {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
 
 .grid-for-boxes {
   display: grid;
