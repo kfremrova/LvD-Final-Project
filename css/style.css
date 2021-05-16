@@ -34,6 +34,19 @@ body {
   font-size: 20px;
 }
 
+.text-link {
+  color: #261E1B;
+}
+
+.text-link:visited {
+  color: #5D544F;
+}
+
+.text-link:hover {
+  color: #FFF9EB;
+  background-color: #261E1B;
+}
+
 .box {
   background-color: white;
   box-shadow: 0px 4px 6px #FFE7AD;
@@ -239,4 +252,60 @@ body {
 
 .menu__link:hover {
   color: #261E1B;
+}
+
+/* musím si rozmyslet, jestli chci červenou, je hůř vidět
+.required {
+    color: colours.$c-required;
+}*/
+.contact-form {
+  text-align: left;
+}
+@media screen and (min-width: 600px) {
+  .contact-form {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .contact-form {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+
+.contact-form__item {
+  margin-bottom: 15px;
+}
+
+.contact-form__label {
+  display: block;
+}
+
+.contact-form__field {
+  width: 100%;
+  border: 1px solid #261E1B;
+}
+
+.contact-form__field:focus {
+  border: 2px solid #261E1B;
+}
+
+.notice {
+  font-size: 12px;
+}
+
+.button--form {
+  border: 0;
+  padding: 5px 15px;
+}
+@media screen and (min-width: 600px) {
+  .button--form {
+    padding: 5px 30px;
+    font-size: 20px;
+  }
+}
+
+.button-wrapper {
+  text-align: right;
 }/*# sourceMappingURL=style.css.map */

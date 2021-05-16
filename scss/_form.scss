@@ -1,0 +1,56 @@
+@use 'colours';
+@use 'spacers';
+
+/* musím si rozmyslet, jestli chci červenou, je hůř vidět
+.required {
+    color: colours.$c-required;
+}*/
+
+.contact-form {
+  text-align: left;
+  @media screen and (min-width: 600px) {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  @media screen and (min-width: 1100px) {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+
+.contact-form__item {
+  margin-bottom: 15px;
+}
+
+.contact-form__label {
+  display: block; //aby byla legenda pole sama na řádku
+}
+
+.contact-form__field {
+  width: 100%; //pole přes celý řádek
+  border: 1px solid colours.$c-primary;
+}
+
+//zvýraznění pole, do kterého se právě píše
+.contact-form__field:focus {
+  border: 2px solid colours.$c-primary;
+}
+
+//upozornění menším písmem
+.notice {
+  font-size: 12px;
+}
+.button--form {
+  border: 0; //aby nemělo tlačítko okraje jako z prohlížeče
+  padding: spacers.$padding-small;
+  //u větších obrazovek zvětšit trochu i tlačítko, ale stačí jednou
+  @media screen and (min-width: 600px) {
+    padding: 5px 30px;
+    font-size: 20px;
+  }
+}
+
+//tlačítko zarovnané vpravo
+.button-wrapper {
+  text-align: right;
+}

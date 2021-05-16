@@ -35,3 +35,19 @@ html {
     padding: spacers.$padding-small;
     font-size: 20px;
     }
+
+    .text-link {
+      color: colours.$c-primary;
+    }
+
+    .text-link:visited {
+      color: colours.$c-brown-shadow;
+    }
+
+    //stejně jako u menu a tlačítek budou u odkazů při :hover barvy reverzně
+    .text-link:hover {
+      color: colours.$c-secondary;
+      background-color: colours.$c-primary;
+    }
+
+    
