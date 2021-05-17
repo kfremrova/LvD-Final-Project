@@ -4,50 +4,49 @@
 
 //základní stylování boxů s odkazy na další obsah
 .box {
-    background-color: white;
-    box-shadow: 0px 4px 6px colours.$c-dark-shadow;
-    padding: 15px;
+  background-color: white;
+  box-shadow: 0px 4px 6px colours.$c-dark-shadow;
+  padding: 15px;
 }
 
 //protože kvůli malým obrazovkám chci, aby celý box fungoval jako jeden odkaz
 .box__go-to {
-    text-decoration: none;
-    color: colours.$c-primary;
+  text-decoration: none;
+  color: colours.$c-primary;
 }
 
 .box__img {
-    background-color: colours.$c-img-substitute;
-    width: 100%;   
+  background-color: colours.$c-img-substitute;
+  width: 100%;
 }
 
 //tohle zjevně nefunguje, proč? Mělo to pomoct zarovnat tlačítka ke spodnímu okraji
 .box__content {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 //stylování tlačítek
 .button {
-    color: colours.$c-secondary;
-    background-color: colours.$c-primary;
-    box-shadow: 0px 4px 6px #5D544F;
-    font-family: fonts.$f-fancy;
-    font-size: 18px;
+  color: colours.$c-secondary;
+  background-color: colours.$c-primary;
+  box-shadow: 0px 4px 6px #5d544f;
+  font-family: fonts.$f-fancy;
+  font-size: 18px;
 }
 
 //ve stavu :hover budou barvy reverzně
 .button:hover {
-    color: colours.$c-primary;
-    background-color: colours.$c-secondary;
+  color: colours.$c-primary;
+  background-color: colours.$c-secondary;
 }
 
 //tlačítka se zobrazí až na širších obrazovkách
 .box__button {
-    text-decoration: none;
-    display: none;
+  text-decoration: none;
+  display: none;
 
-    @media screen and (min-width: 600px) {
-        display: block;        
-    }    
+  @media screen and (min-width: 600px) {
+    display: block;
+  }
 }
-

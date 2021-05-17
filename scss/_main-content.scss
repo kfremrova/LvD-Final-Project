@@ -3,12 +3,12 @@
 @use 'spacers';
 
 .main {
-    padding: spacers.$spacer-small;
-    @media screen and (min-width: 600px) {
-      padding-left: 10%;
-      padding-right: 10%;
-    }
+  padding: spacers.$spacer-small;
+  @media screen and (min-width: 600px) {
+    padding-left: 10%;
+    padding-right: 10%;
   }
+}
 
 .grid-for-boxes {
   display: grid;
@@ -16,12 +16,9 @@
   grid-template-columns: 100%; //boxy pod sebou, zabírají největší možnou šířku
 
   @media screen and (min-width: 600px) {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 400px)); //podle šířky obrazovky po více do řádku, ještě rozmyslet rozměry, takhle to v souvislosti s breakpointem nedává úplně nejlepší smysl
-  } 
-  
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(300px, auto)
+    ); //podle šířky obrazovky po více do řádku, ještě rozmyslet rozměry, takhle to v souvislosti s breakpointem nedává úplně nejlepší smysl
+  }
 }
-
-
-
-
-

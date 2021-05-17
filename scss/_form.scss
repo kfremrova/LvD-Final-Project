@@ -45,8 +45,9 @@
   padding: spacers.$padding-small;
   //u větších obrazovek zvětšit trochu i tlačítko, ale stačí jednou
   @media screen and (min-width: 600px) {
-    padding: 5px 30px;
+    padding: 5px;
     font-size: 20px;
+    width: 25%;
   }
 }
 

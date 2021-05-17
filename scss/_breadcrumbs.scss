@@ -3,14 +3,14 @@
 @use 'spacers';
 
 .breadcrumbs {
-    text-align: left;
+  text-align: left;
 }
 
 .breadcrumbs__link {
-    color: colours.$c-secondary;
+  color: colours.$c-secondary;
 }
 
 .breadcrumbs__link:hover {
-    color: colours.$c-primary;
-    background-color: colours.$c-secondary;
+  color: colours.$c-primary;
+  background-color: colours.$c-secondary;
 }

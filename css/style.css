@@ -71,7 +71,7 @@ body {
 .button {
   color: #FFF9EB;
   background-color: #261E1B;
-  box-shadow: 0px 4px 6px #5D544F;
+  box-shadow: 0px 4px 6px #5d544f;
   font-family: "Great Vibes", cursive;
   font-size: 18px;
 }
@@ -165,7 +165,7 @@ body {
 }
 @media screen and (min-width: 600px) {
   .grid-for-boxes {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
   }
 }
 
@@ -194,10 +194,6 @@ body {
 .logo:hover {
   color: #261E1B;
   background-color: #FFF9EB;
-}
-
-.logo:hover ~ .logo__icon {
-  fill: #261E1B;
 }
 
 .menu__checkbox {
@@ -301,8 +297,9 @@ body {
 }
 @media screen and (min-width: 600px) {
   .button--form {
-    padding: 5px 30px;
+    padding: 5px;
     font-size: 20px;
+    width: 25%;
   }
 }
 
