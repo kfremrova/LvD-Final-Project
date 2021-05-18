@@ -15,6 +15,7 @@ body {
   padding: 0;
   font-size: 16px;
   line-height: 1.5;
+  background-color: #FFF9EB;
 }
 
 .wrapper {
@@ -305,4 +306,11 @@ body {
 
 .button-wrapper {
   text-align: right;
+}
+
+.box--submitted {
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 }/*# sourceMappingURL=style.css.map */
