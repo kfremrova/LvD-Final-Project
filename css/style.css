@@ -1,4 +1,45 @@
 @charset "UTF-8";
+.article {
+  text-align: justify;
+}
+.article__source {
+  font-style: italic;
+}
+.article__img {
+  background-color: #FFE099;
+  float: left;
+  width: 100%;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 600px) {
+  .article__img {
+    width: 50%;
+    margin-right: 10px;
+    margin-bottom: 5px;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .article__img {
+    width: 33%;
+  }
+}
+.article__quote {
+  font-style: italic;
+}
+.article__quote-title {
+  font-style: normal;
+  font-size: 16px;
+  margin: 0;
+}
+.article__page-number {
+  text-align: right;
+  font-style: normal;
+}
+
+.published {
+  text-align: right;
+}
+
 /* nejsme vcerejsi, pouzivame moderni box model */
 html {
   box-sizing: border-box;
@@ -103,6 +144,70 @@ body {
 .breadcrumbs__link:hover {
   color: #261E1B;
   background-color: #FFF9EB;
+}
+
+/* musím si rozmyslet, jestli chci červenou, je hůř vidět
+.required {
+    color: colours.$c-required;
+}*/
+.contact-form {
+  text-align: left;
+}
+@media screen and (min-width: 600px) {
+  .contact-form {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .contact-form {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+
+.contact-form__item {
+  margin-bottom: 15px;
+}
+
+.contact-form__label {
+  display: block;
+}
+
+.contact-form__field {
+  width: 100%;
+  border: 1px solid #261E1B;
+}
+
+.contact-form__field:focus {
+  border: 2px solid #261E1B;
+}
+
+.notice {
+  font-size: 12px;
+}
+
+.button--form {
+  border: 0;
+  padding: 5px 15px;
+}
+@media screen and (min-width: 600px) {
+  .button--form {
+    padding: 5px;
+    font-size: 20px;
+    width: 25%;
+  }
+}
+
+.button-wrapper {
+  text-align: right;
+}
+
+.box--submitted {
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 }
 
 .header {
@@ -249,68 +354,4 @@ body {
 
 .menu__link:hover {
   color: #261E1B;
-}
-
-/* musím si rozmyslet, jestli chci červenou, je hůř vidět
-.required {
-    color: colours.$c-required;
-}*/
-.contact-form {
-  text-align: left;
-}
-@media screen and (min-width: 600px) {
-  .contact-form {
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-}
-@media screen and (min-width: 1100px) {
-  .contact-form {
-    padding-left: 15%;
-    padding-right: 15%;
-  }
-}
-
-.contact-form__item {
-  margin-bottom: 15px;
-}
-
-.contact-form__label {
-  display: block;
-}
-
-.contact-form__field {
-  width: 100%;
-  border: 1px solid #261E1B;
-}
-
-.contact-form__field:focus {
-  border: 2px solid #261E1B;
-}
-
-.notice {
-  font-size: 12px;
-}
-
-.button--form {
-  border: 0;
-  padding: 5px 15px;
-}
-@media screen and (min-width: 600px) {
-  .button--form {
-    padding: 5px;
-    font-size: 20px;
-    width: 25%;
-  }
-}
-
-.button-wrapper {
-  text-align: right;
-}
-
-.box--submitted {
-  margin-top: 200px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
 }/*# sourceMappingURL=style.css.map */
