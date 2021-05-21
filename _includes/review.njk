@@ -6,14 +6,14 @@ subheading: Čtenářský koutek
 <article class="article">
     <h3 class="article__title"> {{ title }} </h3>
     <p class="article__source"> {{ citation }} </p>
-    <img class="article__img" src=" {{img-src}} " alt=" {{img-alt}} ">
+    <img class="article__img" src=" {{ src }} " alt=" {{ alt }} ">
     <div class="article__text">
         {{ content | safe }}
     </div>
     <blockquote class="box article__quote">
         <h5 class="article__quote-title">Ukázka</h5>
         {{ quote }}
-        <p class="article__page-number">({{no.}})</p>
+        <p class="article__page-number">{{ no }}</p>
     </blockquote>
     <p class="published">Publikováno {{ page.date.toLocaleString('cs-CZ') }}</p>
 </article>
