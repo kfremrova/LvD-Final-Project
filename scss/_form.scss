@@ -16,24 +16,22 @@
     padding-left: 15%;
     padding-right: 15%;
   }
-}
 
-.contact-form__item {
-  margin-bottom: 15px;
-}
+  &__item {
+    margin-bottom: 15px;
+  }
 
-.contact-form__label {
-  display: block; //aby byla legenda pole sama na řádku
-}
+  &__label {
+    display: block; //aby byla legenda pole sama na řádku
+  }
 
-.contact-form__field {
-  width: 100%; //pole přes celý řádek
-  border: 1px solid colours.$c-primary;
-}
-
-//zvýraznění pole, do kterého se právě píše
-.contact-form__field:focus {
-  border: 2px solid colours.$c-primary;
+  &__field {
+    width: 100%; //pole přes celý řádek
+    border: 1px solid colours.$c-primary;
+    :focus {
+      border: 2px solid colours.$c-primary; //zvýraznění pole, do kterého se právě píše
+    }
+  }
 }
 
 //upozornění menším písmem

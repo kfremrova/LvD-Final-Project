@@ -94,17 +94,14 @@ body {
   box-shadow: 0px 4px 6px #FFE7AD;
   padding: 15px;
 }
-
 .box__go-to {
   text-decoration: none;
   color: #261E1B;
 }
-
 .box__img {
   background-color: #FFE099;
   width: 100%;
 }
-
 .box__content {
   display: flex;
   flex-direction: column;
@@ -136,12 +133,10 @@ body {
 .breadcrumbs {
   text-align: left;
 }
-
 .breadcrumbs__link {
   color: #FFF9EB;
 }
-
-.breadcrumbs__link:hover {
+.breadcrumbs__link :hover {
   color: #261E1B;
   background-color: #FFF9EB;
 }
@@ -165,21 +160,17 @@ body {
     padding-right: 15%;
   }
 }
-
 .contact-form__item {
   margin-bottom: 15px;
 }
-
 .contact-form__label {
   display: block;
 }
-
 .contact-form__field {
   width: 100%;
   border: 1px solid #261E1B;
 }
-
-.contact-form__field:focus {
+.contact-form__field :focus {
   border: 2px solid #261E1B;
 }
 
@@ -243,7 +234,6 @@ body {
     padding: 120px;
   }
 }
-
 .header__title {
   font-family: "Great Vibes", cursive;
   margin: 0;

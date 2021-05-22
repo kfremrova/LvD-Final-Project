@@ -7,23 +7,24 @@
   background-color: white;
   box-shadow: 0px 4px 6px colours.$c-dark-shadow;
   padding: 15px;
-}
 
-//protože kvůli malým obrazovkám chci, aby celý box fungoval jako jeden odkaz
-.box__go-to {
-  text-decoration: none;
-  color: colours.$c-primary;
-}
+  //protože kvůli malým obrazovkám chci, aby celý box fungoval jako jeden odkaz
+  &__go-to {
+    text-decoration: none;
+    color: colours.$c-primary;
+  }
 
-.box__img {
-  background-color: colours.$c-img-substitute;
-  width: 100%;
-}
+  &__img {
+    background-color: colours.$c-img-substitute;
+    width: 100%;
+  }
 
-//tohle zjevně nefunguje, proč? Mělo to pomoct zarovnat tlačítka ke spodnímu okraji
-.box__content {
-  display: flex;
-  flex-direction: column;
+  //tohle zjevně nefunguje, proč? Mělo to pomoct zarovnat tlačítka ke spodnímu okraji
+  &__content {
+    display: flex;
+    flex-direction: column;
+  }
+
 }
 
 //stylování tlačítek

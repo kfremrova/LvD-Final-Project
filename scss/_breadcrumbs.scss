@@ -4,13 +4,16 @@
 
 .breadcrumbs {
   text-align: left;
+
+  &__link {
+    color: colours.$c-secondary;
+    :hover {
+      color: colours.$c-primary;
+      background-color: colours.$c-secondary;
+    }
+  }
 }
 
-.breadcrumbs__link {
-  color: colours.$c-secondary;
-}
 
-.breadcrumbs__link:hover {
-  color: colours.$c-primary;
-  background-color: colours.$c-secondary;
-}
+
+
