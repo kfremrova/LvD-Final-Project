@@ -7,7 +7,7 @@
 
     &__source {
         font-style: italic; //plná citace knihy kurzívou
-    }    
+    }
 
     &__img {
         background-color: colours.$c-img-substitute; //náhrada, pokud by se obrázek dlouho načítal
@@ -20,12 +20,12 @@
             margin-bottom: 5px;
         }
         @media screen and (min-width: 1100px) {
-            width: 33%;
+           width: 33%;
         }
     }
 
     &__quote {
-        font-style: italic;
+        font-style: italic;        
     }
 
     &__quote-title {
