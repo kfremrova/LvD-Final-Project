@@ -5,7 +5,7 @@ subheading: Čtenářský koutek
 
 <div class="grid-for-boxes">
 
-    {% for post in collections.recenze %}
+    {% for post in collections.recenze | reverse %}
     <section class="box">      
       <a class="box__go-to" href="{{ post.url }}">
         <img class="box__img" src="{{ post.data.src }}" alt="{{ post.data.alt }}" />

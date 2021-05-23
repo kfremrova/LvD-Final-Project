@@ -47,12 +47,16 @@
 
 .menu {
   margin: 0; //aby se mi netřískal s mým rozvržením
+  /*position: absolute; k tomuto se ještě vrátit a zarovnávat na střed, zatím zakomentuji
+  top: 0;
+  right: 0;*/
 }
 
 .menu__list {
   list-style: none;
   display: none;
   margin: 0;
+  background-color: colours.$c-primary;
   @media screen and (min-width: 600px) {
     display: flex;
   }
