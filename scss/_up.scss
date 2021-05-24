@@ -1,0 +1,7 @@
+.up {
+    text-align: right;
+    //aby byl odkaz zpátky na začátek vidět jen na malých obrazovkách
+    @media screen and (min-width: 600px) {
+        display: none;
+      }
+}

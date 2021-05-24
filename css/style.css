@@ -366,4 +366,13 @@ body {
 
 .menu__link:hover {
   color: #261E1B;
+}
+
+.up {
+  text-align: right;
+}
+@media screen and (min-width: 600px) {
+  .up {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
