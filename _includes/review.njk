@@ -8,14 +8,7 @@ subheading: Čtenářský koutek
     <p class="article__source"> {{ citation }} </p>
     <div class="article__content">
         <img class="article__img" src=" {{ src }} " alt=" {{ alt }} ">
-        <div class="article__text">
-            {{ content | safe }}
-        </div>
-        <blockquote class="box article__quote">
-            <h5 class="article__quote-title">Ukázka</h5>
-            {{ quote }}
-            <p class="article__page-number">{{ no }}</p>
-        </blockquote>
+        {{ content | safe }}
     </div>  
     <p class="published">Publikováno {{ page.date.toLocaleString('cs-CZ') }}</p>
 </article>

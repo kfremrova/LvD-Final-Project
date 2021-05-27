@@ -136,7 +136,8 @@ body {
 .breadcrumbs__link {
   color: #FFF9EB;
 }
-.breadcrumbs__link :hover {
+
+.breadcrumbs__link:hover {
   color: #261E1B;
   background-color: #FFF9EB;
 }
@@ -370,6 +371,7 @@ body {
 
 .up {
   text-align: right;
+  padding-top: 30px;
 }
 @media screen and (min-width: 600px) {
   .up {

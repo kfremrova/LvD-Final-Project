@@ -1,5 +1,6 @@
 .up {
     text-align: right;
+    padding-top: 30px;
     //aby byl odkaz zpátky na začátek vidět jen na malých obrazovkách
     @media screen and (min-width: 600px) {
         display: none;

@@ -6,12 +6,14 @@
   text-align: left;
 
   &__link {
-    color: colours.$c-secondary;
-    :hover {
-      color: colours.$c-primary;
-      background-color: colours.$c-secondary;
-    }
+    color: colours.$c-secondary;    
   }
+}
+
+//toto je zvlášť nezanořené, protože zanořené mi to nevímproč nefunguje
+.breadcrumbs__link:hover {
+  color: colours.$c-primary;
+  background-color: colours.$c-secondary;
 }
 
 

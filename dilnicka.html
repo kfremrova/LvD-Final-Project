@@ -2,3 +2,25 @@
 layout: primary_layout.njk
 subheading: Dílnička
 ---
+
+<div class="grid-for-boxes">
+
+    {% for post in collections.navod | reverse %}
+    <section class="box">      
+      <a class="box__go-to" href="{{ post.url }}">
+        <img class="box__img" src="{{ post.data.src }}" alt="{{ post.data.alt }}" />
+        <div class="box__content">
+          <div class="box__text">
+            <h4 class="box__title">{{ post.data.title }}</h4>
+            <p class="box__intro">
+              {{ post.data.perex }}
+            </p>
+          </div>
+          <a class="button box__button" href="{{ post.url }}">Celý návod</a>
+        </div>
+      </a>    
+    </section>
+
+    {% endfor %}
+
+</div>
