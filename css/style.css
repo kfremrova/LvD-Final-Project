@@ -220,7 +220,7 @@ body {
 }
 
 .header {
-  background-image: url(/images/docasny.JPG);
+  background-image: url(/images/docasny.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 30px;
@@ -328,9 +328,15 @@ body {
 
 .menu {
   margin: 0;
-  /*position: absolute; k tomuto se ještě vrátit a zarovnávat na střed, zatím zakomentuji
-  top: 0;
-  right: 0;*/
+  padding: 10px;
+  position: absolute;
+  top: 5px;
+  right: 15px;
+}
+@media screen and (min-width: 600px) {
+  .menu {
+    padding: 0;
+  }
 }
 
 .menu__list {

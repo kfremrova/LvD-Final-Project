@@ -46,10 +46,14 @@
 }
 
 .menu {
-  margin: 0; //aby se mi netřískal s mým rozvržením
-  /*position: absolute; k tomuto se ještě vrátit a zarovnávat na střed, zatím zakomentuji
-  top: 0;
-  right: 0;*/
+  margin: 0;
+  padding: 10px; //srovnat na stejnou úroveň s logem na mylých obrazovkách
+  @media screen and (min-width: 600px) {
+    padding: 0; //a na velkých vrátit, protože to nevypadá hezky
+  }
+  position: absolute; //aby při rozbalení menu neposkakovalo všechno pod ním, není to dokonalé, vrátit se, když budu mít čas
+  top: 5px;
+  right: 15px;
 }
 
 .menu__list {
