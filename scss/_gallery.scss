@@ -1,0 +1,15 @@
+.gallery {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr;
+
+    &__figure {
+        margin: 0; //aby to nebylo všechno tak rozlezlé od sebe
+    }
+
+    &__caption {
+            font-size: 12px;
+    }
+    
+
+}

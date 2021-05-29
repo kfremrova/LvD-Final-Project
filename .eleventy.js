@@ -6,6 +6,8 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("css");
     //Zkopírovat favicony/ do _site/icon
     eleventyConfig.addPassthroughCopy("icon");
+    //Zkopírovat lightbox/ do _site/js
+    eleventyConfig.addPassthroughCopy("js");
     return {
         // možné formáty šablon
         templateFormats: ["njk","html", "md", "liquid"],

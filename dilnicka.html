@@ -15,7 +15,7 @@ link: → <a class="breadcrumbs__link" href="/dilnicka/">Dílnička</a>
 
 <div class="grid-for-boxes">
 
-    {% for post in collections.navod | reverse %}
+    {% for post in collections.navod %}
     <section class="box">      
       <a class="box__go-to" href="{{ post.url }}">
         <img class="box__img" src="{{ post.data.src }}" alt="{{ post.data.alt }}" />

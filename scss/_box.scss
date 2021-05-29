@@ -34,12 +34,22 @@
   box-shadow: 0px 4px 6px #5d544f;
   font-family: fonts.$f-fancy;
   font-size: 18px;
+  transition: 
+    // background-color 0.2s, zatím v komentáři, asi se mi nelíbí, když má tohle prodlevu?
+    box-shadow 0.2s,
+    transform 0.2s;
 }
 
 //ve stavu :hover budou barvy reverzně
 .button:hover {
   color: colours.$c-primary;
   background-color: colours.$c-secondary;
+}
+
+//animace tlačítka pro radost
+.button:active {
+  box-shadow: 0px 1px 2px #5d544f;
+  transform: translateY(3px);
 }
 
 //tlačítka se zobrazí až na širších obrazovkách
