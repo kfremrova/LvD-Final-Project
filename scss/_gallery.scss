@@ -2,6 +2,9 @@
     display: grid;
     gap: 15px;
     grid-template-columns: 1fr 1fr;
+    @media screen and (min-width: 1000px) {
+        grid-template-columns: 1fr 1fr 1fr 1fr;            
+    }
 
     &__figure {
         margin: 0; //aby to nebylo všechno tak rozlezlé od sebe
@@ -9,7 +12,18 @@
 
     &__caption {
             font-size: 12px;
-    }
-    
+    }  
 
+}
+
+.single-img {
+    width: 100%;
+    margin: auto; //centrování
+    //zmenšování, aby to nebylo na velkých obrazovkách tak obří
+    @media screen and (min-width: 600px) {
+        width: 75%;
+    }
+    @media screen and (min-width: 1000px) {
+        width: 50%;
+    }
 }

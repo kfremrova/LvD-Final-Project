@@ -4,13 +4,9 @@ Na co nesmím zapomenout:
     nezapomenout na stavy :hover :focus, podbarvení aktuální položky menu.. /hover - barvy reverzně, focus - podtržení/
 
     podmínky - označení, na jaké stránce se nacházím + drobečková navigace
-    u malých obrazovek na koncích stránek odkaz nahoru
-    list :hover - nedělá, co má
-    poskakující textarea
     fotogalerie a fotky vůbec
     náhrada titulní fotografie
     ještě promyslet písmo na tlačítkách - snad nečitelné
-    animace tlačitka
-    promyslet layout u přehledu recenzí - nebylo by lepší delší a vertikální linear-gradient?
     rozbalování menu - absolutní pozicování
     texty, texty, texty
+    ještě si pohrát se stylování šipek navigace

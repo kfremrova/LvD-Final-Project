@@ -11,16 +11,32 @@
 
     &__img {
         background-color: colours.$c-img-substitute; //náhrada, pokud by se obrázek dlouho načítal
-        float: left; //obtékání obrázku
         width: 100%;
         margin-bottom: 10px; //aby nebyl nalepený na text, nevadí to BEMu?
+
         @media screen and (min-width: 600px) {
-            width: 50%;
+            width: 50%;            
+        }
+        @media screen and (min-width: 1100px) {
+            width: 33%;
+         }
+    }
+
+    &__img--review {
+        float: left; //obtékání obrázku        
+        @media screen and (min-width: 600px) {
             margin-right: 10px;
             margin-bottom: 5px;
         }
-        @media screen and (min-width: 1100px) {
-           width: 33%;
+        
+    }
+
+    //následující platí pro první obrázek v návodech
+    &__img--instructions {
+        float: right;
+        @media screen and (min-width: 600px) {
+            margin-right: 0;
+            margin-left: 10px;
         }
     }
 

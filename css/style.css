@@ -7,20 +7,35 @@
 }
 .article__img {
   background-color: #FFE099;
-  float: left;
   width: 100%;
   margin-bottom: 10px;
 }
 @media screen and (min-width: 600px) {
   .article__img {
     width: 50%;
-    margin-right: 10px;
-    margin-bottom: 5px;
   }
 }
 @media screen and (min-width: 1100px) {
   .article__img {
     width: 33%;
+  }
+}
+.article__img--review {
+  float: left;
+}
+@media screen and (min-width: 600px) {
+  .article__img--review {
+    margin-right: 10px;
+    margin-bottom: 5px;
+  }
+}
+.article__img--instructions {
+  float: right;
+}
+@media screen and (min-width: 600px) {
+  .article__img--instructions {
+    margin-right: 0;
+    margin-left: 10px;
   }
 }
 .article__quote {
@@ -87,6 +102,10 @@ body {
 .text-link:hover {
   color: #FFF9EB;
   background-color: #261E1B;
+}
+
+.fas {
+  padding: 0 5px;
 }
 
 .box {
@@ -230,11 +249,31 @@ body {
   gap: 15px;
   grid-template-columns: 1fr 1fr;
 }
+@media screen and (min-width: 1000px) {
+  .gallery {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
 .gallery__figure {
   margin: 0;
 }
 .gallery__caption {
   font-size: 12px;
+}
+
+.single-img {
+  width: 100%;
+  margin: auto;
+}
+@media screen and (min-width: 600px) {
+  .single-img {
+    width: 75%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .single-img {
+    width: 50%;
+  }
 }
 
 .header {
