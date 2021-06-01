@@ -5,13 +5,9 @@
     @media screen and (min-width: 1000px) {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     } 
-}
-
-.gallery--jak-zacit {    
     &__figure {
         margin: 0; //aby to nebylo všechno tak rozlezlé od sebe
     }
-
     &__caption {
             font-size: 12px;
     } 

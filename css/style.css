@@ -254,11 +254,10 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
-
-.gallery--jak-zacit__figure {
+.gallery__figure {
   margin: 0;
 }
-.gallery--jak-zacit__caption {
+.gallery__caption {
   font-size: 12px;
 }
 
