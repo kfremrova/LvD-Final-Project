@@ -1,4 +1,4 @@
-.gallery {
+.gallery--jak-zacit {
     display: grid;
     gap: 15px;
     grid-template-columns: 1fr 1fr;
@@ -12,8 +12,7 @@
 
     &__caption {
             font-size: 12px;
-    }  
-
+    } 
 }
 
 .single-img {
@@ -27,3 +26,13 @@
         width: 50%;
     }
 }
+
+.gallery--instructions {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    @media screen and (min-width: 1000px) {
+        grid-template-columns: 1fr 1fr 1fr 1fr;            
+    }
+}
+    
