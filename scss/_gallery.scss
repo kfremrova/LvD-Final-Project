@@ -1,11 +1,13 @@
-.gallery--jak-zacit {
+.gallery {
     display: grid;
     gap: 15px;
     grid-template-columns: 1fr 1fr;
     @media screen and (min-width: 1000px) {
-        grid-template-columns: 1fr 1fr 1fr 1fr;            
-    }
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    } 
+}
 
+.gallery--jak-zacit {    
     &__figure {
         margin: 0; //aby to nebylo všechno tak rozlezlé od sebe
     }
@@ -26,13 +28,4 @@
         width: 50%;
     }
 }
-
-.gallery--instructions {
-    display: grid;
-    gap: 15px;
-    grid-template-columns: 1fr 1fr;
-    @media screen and (min-width: 1000px) {
-        grid-template-columns: 1fr 1fr 1fr 1fr;            
-    }
-}
-    
+  

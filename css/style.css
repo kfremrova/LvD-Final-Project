@@ -244,16 +244,17 @@ body {
   justify-self: center;
 }
 
-.gallery--jak-zacit {
+.gallery {
   display: grid;
   gap: 15px;
   grid-template-columns: 1fr 1fr;
 }
 @media screen and (min-width: 1000px) {
-  .gallery--jak-zacit {
+  .gallery {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
+
 .gallery--jak-zacit__figure {
   margin: 0;
 }
@@ -273,17 +274,6 @@ body {
 @media screen and (min-width: 1000px) {
   .single-img {
     width: 50%;
-  }
-}
-
-.gallery--instructions {
-  display: grid;
-  gap: 15px;
-  grid-template-columns: 1fr 1fr;
-}
-@media screen and (min-width: 1000px) {
-  .gallery--instructions {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 
