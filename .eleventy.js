@@ -1,5 +1,8 @@
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 module.exports = function(eleventyConfig) {
-    // Výchozí výstupní složka je: _site
+  //plugin pro navigaci
+  eleventyConfig.addPlugin(eleventyNavigationPlugin);  
+  // Výchozí výstupní složka je: _site
     // Zkopírovat images/ do _site/images
     eleventyConfig.addPassthroughCopy("images");
     // Zkopírovat css/ to _site/css/

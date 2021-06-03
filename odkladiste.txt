@@ -1,0 +1,19 @@
+<nav class="breadcrumbs">
+    <a class="breadcrumbs__link" href="/">Domů</a> 
+    <!--toto je direktiva pro základní stránky /vyjma úvodní/, aby se v drobečkové navigaci ukazoval název bez odkazu-->
+    {% if tag === 'site' %}
+    <span>
+      <i class="fas fa-chevron-right"></i>    
+      {{ subheading }}
+    </span>
+    {% endif %}
+
+    <!--toto je direktiva pro příspěvky /návody, recenze, cokoli dalšího, co časem přibude/, aby se v drobečkové navigaci ukazovala celá cesta k nim + jejich název už bez odkazu-->
+    <!--což evidentně nefunguje, vrátit se k tomu později-->
+    {% if tag === 'post' %}         
+    <i class="fas fa-angle-right"></i>
+    <span> {{ link | safe }} </span>
+    <i class="fas fa-angle-right"></i>
+    <span> {{ title }} </span>
+    {% endif %}         
+  </nav>
