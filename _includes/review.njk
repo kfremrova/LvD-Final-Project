@@ -7,7 +7,7 @@ subheading: Čtenářský koutek
     <h3 class="article__title"> {{ title }} </h3>
     <p class="article__source"> {{ citation }} </p>
     <div class="article__content">
-        <img class="article__img article__img--review" src=" {{ src }} " alt=" {{ alt }} ">
+        <img class="article__img article__img--review" src=" {{src}} " alt=" {{alt}} ">
         {{ content | safe }}
     </div>  
     <p class="published">Publikováno {{ page.date.toLocaleString('cs-CZ') }}</p>
