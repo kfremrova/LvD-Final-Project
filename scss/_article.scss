@@ -3,8 +3,13 @@
 @use 'spacers';
 
 .article {
-    text-align: justify; //zarovnání do bloku
-
+    @media screen and (min-width: 600px) {
+        text-align: left; //zarovnání vlevo na středních obrazovkách - nedělá divné mezery, a float vypadá lépe než u zarovnání na střed
+    }
+    @media screen and (min-width: 1000px) {
+        text-align: justify; //zarovnání do bloku jen na širokých obrazovkách
+    }
+    
     &__source {
         font-style: italic; //plná citace knihy kurzívou
     }
@@ -41,7 +46,8 @@
     }
 
     &__quote {
-        font-style: italic;        
+        font-style: italic; 
+        text-align: center; //ukázka je zarovnaná vždy na střed      
     }
 
     &__quote-title {
